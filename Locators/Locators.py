@@ -10,6 +10,7 @@ class MyLocators():
     evidenciaExcel = "C:\\Proyecto_final_SP\\evidencias\\Catalogo.xlsx" 
 
     # Main Page
+    XPATH_cerrar_swalmodal = "/html/body/div[4]/div/div/div[1]/button"
     Linktext_proveedores="PROVEEDORES"
 
     # Categorias page
@@ -22,7 +23,10 @@ class MyLocators():
     XPATH_categoria_asesoriayConsultoria = "/html/body/section[3]/div/div/div[1]/div[6]/div/div"
    # Provedores de categoria page
     XPATH_tabla_proveedores = "//section[@id='extClients3-1i']/div[2]/div/div"
+    XPATH_primer_proveedor = "/html/body/section[4]/div[2]/div/div[1]/div[1]"
+
+
   
 
     # Tabla de Evidencia
-    list_Columns = ["Mensaje"]
+    #list_Columns = ["Mensaje"]

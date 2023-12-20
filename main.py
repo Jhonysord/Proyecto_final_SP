@@ -12,7 +12,7 @@ from TestCases.TC_1 import TC_1
 
 class TestCatalogo(unittest.TestCase):
     
-    @classmethod #bandera para un metodo que le da prioridad al metodo de ejecutarse primero
+    @classmethod 
     def setUpClass (cls):
         print("INICIO DE LA PRUEBA")
         miServicio = Service(MyLocators.Driver_Path)
